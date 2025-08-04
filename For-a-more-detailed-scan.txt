@@ -1,0 +1,28 @@
+# Nmap 7.95 scan initiated Mon Aug  4 12:49:45 2025 as: /usr/lib/nmap/nmap -sS -A -oN For-a-more-detailed-scan 10.142.147.113/24
+Nmap scan report for 10.142.147.74
+Host is up (0.0042s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.51
+MAC Address: 06:D3:5D:1B:CD:8C (Unknown)
+Device type: phone
+Running: Linux 4.X, Google Android 10.X|11.X|12.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:google:android:10 cpe:/o:google:android:11 cpe:/o:google:android:12
+OS details: Android 10 - 12 (Linux 4.14 - 4.19)
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.15 ms 10.142.147.74
+
+Nmap scan report for 10.142.147.113
+Host is up (0.000080s latency).
+All 1000 scanned ports on 10.142.147.113 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  4 12:50:13 2025 -- 256 IP addresses (2 hosts up) scanned in 27.72 seconds
